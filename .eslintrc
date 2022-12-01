@@ -1,0 +1,6 @@
+{
+  "extends": ["@habx/service"],
+  "rules": {
+    "@habx/graphql-multi-endpoints/api-directive": 0
+  }
+}

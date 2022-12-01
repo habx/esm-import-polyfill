@@ -1,0 +1,14 @@
+{
+  "extends": "@habx/config-ci-back/dist/typescript/service.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "target": "ES3"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
